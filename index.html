@@ -8,9 +8,10 @@
 </head>
 <body>
  <div id="gd"></div>
- <script type="text/javascript" src="tmp.json"></script>
+ <script type="text/javascript" src="tmp2.json"></script>
  <script>
-      //Plotly.newPlot(data)dd
+      var mydata = JSON.parse(data);
+      Plotly.newPlot(mydata);
     </script>
     <p>
       Hello world! test test
