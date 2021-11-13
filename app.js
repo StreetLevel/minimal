@@ -1,5 +1,5 @@
 const http = require('http')
-const hostname = 'http://mrbitcoinbot.net/';
+const hostname = 'www.mrbitcoinbot.net';
 const port = 3000;
 
 const server = http.createServer((req, res) => {
